@@ -1,0 +1,111 @@
+#System Functions
+alias updatemirrors="yay -Syy && sudo pacman -Syy"
+alias updatemypc="yay && flatpak update && sudo pacman -Syu"
+alias updatemyshit="yay && flatpak update && sudo pacman -Syu"
+alias updateall="yay && flatpak update && sudo pacman -Syu"
+alias hellolinux="updateall && reboot"
+alias suplinux="updateall && reboot"
+alias morninglinux="updateall && reboot"
+alias nightlinux="updateall && shutdown now"
+alias goodnightlinux="updateall && shutdown now"
+alias ~="cd ~"
+alias myemail="thunderbird"
+
+#File System
+alias lsa="ls -a"
+alias pics="dolphin Pictures"
+alias downloadfolder="dolphin Downloads"
+alias musicfolder="dolphin Music"
+alias emulatorgames="dolphin emulatorgames"
+
+#Ani-cli
+alias weeb="ani-cli"
+alias weeb720p="ani-cli -q 720"
+alias weeb480p="ani-cli -q 480"
+alias weebreader="tachidesk"
+
+#Website shortcuts
+alias forwardslashv="vivaldi-stable www.4chan.org/v/"
+alias forwardslasha="vivaldi-stable www.4chan.org/a/"
+alias forwardslashwsg="vivaldi-stable www.4chan.org/wsg/"
+
+#Music Playlists
+alias whatisplaying="yt-dlp -e"
+alias alphasvideogamednb="echo Use , and . to control the track. && mpv --no-video https://www.youtube.com/playlist?list=PLOi1NEWTH8AaOxa3FUAk2g55FUcnCChO1"
+alias mymusicchillpixx="echo Use , and . to control the track. && mpv --no-video https://www.youtube.com/playlist?list=PLMCM1wMTejfnjHcg1xjVAxYczwrQv--cV"
+alias mymusicracingpixx="echo Use , and . to control the track. && mpv --no-video https://www.youtube.com/playlist?list=PLMCM1wMTejfllrmKuh65bnUZ-HYWJ6szN"
+alias mymusicpixx="echo Use , and . to control the track. && mpv --no-video https://www.youtube.com/playlist?list=PLBF26FDF0B3B33591"
+alias mymusicpixx2="echo Use , and . to control the track. && mpv --no-video https://www.youtube.com/playlist?list=PLF5F47F3CF2497FE0"
+alias mymusicpixx3="echo Use , and . to control the track. && mpv --no-video https://www.youtube.com/playlist?list=PL6042A78D87659C27"
+alias mymusicpixx4="echo Use , and . to control the track. && mpv --no-video https://www.youtube.com/playlist?list=PLMCM1wMTejfkVRwEz1U5JaTxWxH0L242V"
+alias mymusicpixx5="echo Use , and . to control the track. && mpv --no-video https://www.youtube.com/playlist?list=PLMCM1wMTejfnCB82iCchGfRWH6DMtIBEe"
+alias mymusicpixx6="echo Use , and . to control the track. && mpv --no-video https://www.youtube.com/playlist?list=PLMCM1wMTejflu4SRURKX68JvimjbXFuUd"
+alias mymusicpixx7="echo Use , and . to control the track. && mpv --no-video https://www.youtube.com/playlist?list=PLMCM1wMTejflsJVS6FLQ0KR5YAT70e8jh"
+alias mymusicpixx8="echo Use , and . to control the track. && mpv --no-video https://www.youtube.com/playlist?list=PLMCM1wMTejfnYt1TRt-R064MomTikNc__"
+
+##Hard drive shortcuts
+#Stepmania Song Folder
+alias stepmaniasongfolder="dolphin /home/wman/.var/app/com.stepmania.StepMania/.stepmania-5.1/Songs"
+
+##Steam Game Shortcuts
+#Counter Strike: Source
+alias CS:S="steam steam://rungameid/240/"
+alias counterstrikesource="steam steam://rungameid/240/"
+#Death Stranding
+alias asylumforthefeeling="steam steam://rungameid/1190460/"
+alias deathstranding="steam steam://rungameid/1190460/"
+#Dicey Dungeons
+alias gimmeanother6="steam steam://rungameid/861540/"
+alias yahtzeedungeoncrawler="steam steam://rungameid/861540/"
+alias diceydungeons="steam steam://rungameid/861540/"
+#Fights in Tight Spaces
+alias thismusntregisteronanemotionallevel="steam steam://rungameid/1265820/"
+alias FITS="steam steam://rungameid/1265820/"
+alias fightsintightspaces="steam steam://rungameid/1265820/"
+#Garry's Mod
+alias gmod="steam steam://rungameid/4000/"
+alias garrysmod="steam steam://rungameid/4000/"
+#Retroarch
+alias emulatorhub="steam steam://rungameid/1118310/"
+alias steamretroarch="steam steam://rungameid/1118310/"
+#Risk of Rain 2
+alias ror2="steam steam://rungameid/632360/"
+alias riskofrain2="steam steam://rungameid/632360/"
+#Sonic Adventure
+alias sonica="steam steam://rungameid/71250/"
+alias sonicadventure="steam steam://rungameid/71250/"
+#Sonic Adventure 2
+alias sonica2="steam steam://rungameid/213610/"
+alias sonicadventure2="steam steam://rungameid/213610/"
+#Team Fortress 2
+alias hatgame="steam steam://rungameid/440/"
+alias TF2="steam steam://rungameid/440/"
+alias teamfortress2="steam steam://rungameid/440/"
+#VRChat
+alias sightseeingapp="steam steam://rungameid/438100"
+alias weirdfurfags="steam steam://rungameid/438100"
+alias vrchat="steam steam://rungameid/438100/"
+#Warframe
+alias ninjagrind="steam steam://rungameid/230410/"
+alias warfarm="steam steam://rungameid/230410/"
+alias warframe="steam steam://rungameid/230410/"
+#XCOM: Enemy Unknown
+alias ayylmao="steam steam://rungameid/200510/"
+alias xcomeu="steam steam://rungameid/200510/"
+
+##Non-Steam game shortcuts
+#Stepmania
+alias stepmania="/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=stepmania com.stepmania.StepMania"
+
+
+#Edit this file
+alias mybashrc="kate .bashrc"
+alias savemybashrc="source .bashrc"
+
+#Bash Scripting
+alias bashscripts="cd .local && cd bin && echo Remember to use chmod -x scriptname and chmod 0755 scriptname to finalize your bin bash script and make it usable."
+alias listmybashscripts="echo My Bash Scripts: && ls .local/bin"
+
+#Terminal gifs with gif-for-cli (press ctrl+C to end a loop)
+alias terminalgifloop="gif-for-cli --rows 'tput lines' --cols 'tput cols' -l 0"
+alias terminalgif="gif-for-cli --rows 'tput lines' --cols 'tput cols'"
