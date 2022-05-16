@@ -1,0 +1,9 @@
+https://www.reddit.com/r/linux_gaming/comments/uprikf/is_there_a_way_to_make_steam_use_all_cores_when/
+
+https://github.com/ValveSoftware/steam-for-linux/issues/7283
+
+Open up this url in a browser: steam://open/console
+In the input field at the bottom, enter this (replace 12 by your desired thread count):
+unShaderBackgroundProcessingThreads 12
+
+You can make it persistent by putting it into a new file called steam_dev.cfg in the Steam folder ( default ~/.local/share/Steam/). Then restart Steam.
