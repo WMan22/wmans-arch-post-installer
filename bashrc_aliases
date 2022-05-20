@@ -13,10 +13,6 @@ alias myemail="thunderbird"
 
 #File System
 alias lsa="ls -a"
-alias pics="dolphin Pictures"
-alias downloadfolder="dolphin Downloads"
-alias musicfolder="dolphin Music"
-alias emulatorgames="dolphin emulatorgames"
 
 #Ani-cli
 alias weeb="ani-cli"
@@ -46,6 +42,10 @@ alias mymusicpixx8="echo Use , and . to control the track. && mpv --no-video htt
 ##Hard drive shortcuts
 #Stepmania Song Folder
 alias stepmaniasongfolder="dolphin /home/wman/.var/app/com.stepmania.StepMania/.stepmania-5.1/Songs"
+alias pics="dolphin Pictures"
+alias downloadfolder="dolphin Downloads"
+alias musicfolder="dolphin Music"
+alias emulatorgames="dolphin emulatorgames"
 
 ##Steam Game Shortcuts
 #Counter Strike: Source
