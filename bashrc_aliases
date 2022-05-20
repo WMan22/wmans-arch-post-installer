@@ -24,6 +24,13 @@ alias weebreader="tachidesk"
 alias forwardslashv="vivaldi-stable www.4chan.org/v/"
 alias forwardslasha="vivaldi-stable www.4chan.org/a/"
 alias forwardslashwsg="vivaldi-stable www.4chan.org/wsg/"
+alias itchyforindie="vivaldi-stable itch.io"
+alias goodoldgames="vivaldi-stable www.gog.com"
+alias pizzatimedominos="vivaldi-stable www.dominos.com"
+alias havesomefunwithmiku="vivaldi-stable www.dominos.com"
+alias scottpres="vivaldi-stable www.dominos.com"
+alias pizzahuttime="vivaldi-stable www.pizzahut.com"
+alias pizzatimepizzahut="vivaldi-stable www.pizzahut.com"
 
 #Music Playlists
 alias whatisplaying="yt-dlp -e"
