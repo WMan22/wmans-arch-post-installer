@@ -30,7 +30,12 @@ alias pizzatimedominos="vivaldi-stable www.dominos.com"
 alias havesomefunwithmiku="vivaldi-stable www.dominos.com"
 alias scottpres="vivaldi-stable www.dominos.com"
 alias pizzahuttime="vivaldi-stable www.pizzahut.com"
-alias pizzatimepizzahut="vivaldi-stable www.pizzahut.com"
+alias pizzatimepizzahut="vivaldi-stable https://www.pizzahut.com"
+alias newgrounds="vivaldi-stable https://www.newgrounds.com"
+alias myabandonware="vivaldi-stable https://www.myabandonware.com"
+alias myanimelist="vivaldi-stable https://myanimelist.net"
+alias crunchyroll="vivaldi-stable https://www.crunchyroll.com"
+alias netflix="vivaldi-stable https://www.netflix.com"
 
 #Music Playlists
 alias whatisplaying="yt-dlp -e"
