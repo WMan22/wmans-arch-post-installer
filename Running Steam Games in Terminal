@@ -1,0 +1,6 @@
+Regular version of steam using XCOM: Enemy Unknown as an example
+Arch Package Version of steam:
+steam steam://rungameid/230410
+
+Flatpak Version of Steam:
+flatpak run com.valvesoftware.Steam -applaunch 230410
