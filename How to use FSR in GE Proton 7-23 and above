@@ -1,0 +1,58 @@
+-EDIT-:
+If custom FSR screen resolutions did not show up for you, try removing and re-downloading this release. I had to remove the original attachments because I forgot to apply the patches and did not want to make a new full release for the fix.
+
+Hotfix: fix Path of Exile not launching
+
+FSR:
+
+I've attempted to make the FSR issue a bit easier for people by implementing a new option:
+
+WINE_FULLSCREEN_FSR_MODE.
+
+How it works:
+
+WINE_FULLSCREEN_FSR=1 WINE_FULLSCREEN_FSR_MODE=ultra %command%
+
+Modes available:
+
+ultra
+quality
+balanced
+performance
+
+This will add the resolution corresponding to your monitor resolution and mode setting to the in-game resolution list if your monitor's resolution is supported by FSR.
+
+Example:
+
+If you choose 'ultra' and your monitor is 1440p (2k), it will add this entry to the in-game screen resolution list:
+
+1970x1108
+
+You must then choose that resolution in-game and FSR will scale it up to your monitor's 1440p size.
+If WINE_FULLSCREEN_FSR is enabled but no mode is set, the 'performance' option for screen resolution (if supported by FSR) will be added.
+
+Again, the full list of resolutions can be found below for reference:
+
++    4K:
++    {1920, 1080},  /* 16:9 - 'FSR 2160p Performance'
++    {2259, 1270}, /* 16:9 - 'FSR 2160p Balanced'
++    {2560, 1440},  /* 16:9 - 'FSR 2160p Quality'
++    {2954, 1662}, /* 16:9 - 'FSR 2160p Ultra Quality'
++
++    Ultra-wide:
++    {1720, 720}, /* 21:9 - 'FSR ultra-wide Performance'
++    {2024, 847}, /* 21:9 - 'FSR ultra-wide Balanced'
++    {2293, 960}, /* 21:9 - 'FSR ultra-wide Quality'
++    {2646, 1108}, /* 21:9 - 'FSR ultra-wide Ultra Quality'
++
++    2K:
++    {1280, 720},  /* 16:9 - 'FSR 1440p Performance'
++    {1506, 847},  /* 16:9 - 'FSR 1440p Balanced'
++    {1706, 960},  /* 16:9 - 'FSR 1440p Quality'
++    {1970, 1108}, /* 16:9 - 'FSR 1440p Ultra Quality'
++
++    1080p:
++    {960, 640},  /* 16:9 - 'FSR 1080p Performance'
++    {1129, 635},  /* 16:9 - 'FSR 1080p Balanced'
++    {1280, 720},  /* 16:9 - 'FSR 1080p Quality' 
++    {1477, 831},  /* 16:9 - 'FSR 1080p Ultra Quality'
