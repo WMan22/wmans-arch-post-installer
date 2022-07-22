@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Custom Menu",
+    "icon": "flypie-symbolic-#46a",
+    "type": "CustomMenu",
+    "children": [
+      {
+        "name": "Folders",
+        "icon": "folder-open",
+        "type": "CustomMenu",
+        "children": [
+          {
+            "name": "Bottles Dir",
+            "icon": "folder",
+            "type": "Command",
+            "data": {
+              "command": "nemo .var/app/com.usebottles.bottles/data/bottles/bottles"
+            },
+            "angle": -1
+          },
+          {
+            "name": "Downloads",
+            "icon": "folder-download",
+            "type": "Command",
+            "data": {
+              "command": "nemo Downloads"
+            },
+            "angle": -1
+          },
+          {
+            "name": "Themes",
+            "icon": "applications-graphics",
+            "type": "Command",
+            "data": {
+              "command": "nemo .themes"
+            },
+            "angle": -1
+          },
+          {
+            "name": "Pictures",
+            "icon": "camera-photo",
+            "type": "Command",
+            "data": {
+              "command": "nemo Pictures"
+            },
+            "angle": -1
+          },
+          {
+            "name": "FlatpakDirs",
+            "icon": "folder-open",
+            "type": "Command",
+            "data": {
+              "command": "nemo .var/app"
+            },
+            "angle": -1
+          },
+          {
+            "name": "Extensions",
+            "icon": "applications-other",
+            "type": "Command",
+            "data": {
+              "command": "nemo .local/share/gnome-shell/extensions"
+            },
+            "angle": -1
+          }
+        ],
+        "angle": -1,
+        "data": {}
+      },
+      {
+        "name": "Retro Term",
+        "icon": "gnome-term",
+        "type": "Command",
+        "data": {
+          "command": "cool-retro-term"
+        },
+        "angle": -1
+      },
+      {
+        "name": "Favorites",
+        "icon": "emblem-favourite",
+        "type": "Favorites",
+        "angle": -1,
+        "data": {}
+      },
+      {
+        "name": "Text Input",
+        "icon": "_accessories-text-editor",
+        "type": "CustomMenu",
+        "children": [
+          {
+            "name": "Ani-Cli",
+            "icon": "accessories-text-editor",
+            "type": "InsertText",
+            "data": {
+              "text": "ani-cli"
+            },
+            "angle": -1
+          }
+        ],
+        "angle": -1,
+        "data": {}
+      }
+    ],
+    "id": 1,
+    "shortcut": "",
+    "angle": -1,
+    "superRMB": true,
+    "data": {},
+    "centered": false,
+    "touchButton": false
+  }
+]
