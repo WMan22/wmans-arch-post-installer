@@ -1,0 +1,31 @@
+Favorite Global themes: 
+Iridescent-round
+Nostrum - Future Retro
+
+
+------------------------
+
+Window sound manager: https://github.com/andredla/win_audio
+## Copy and Paste the stuff below this into win_audio's config.txt. Work in progress commenting.
+
+#Open Window
+win_open_sound:"/home/username/.desktopaudio/",50
+#Close Window
+win_close_sound:"/home/username/.desktopaudio/",50
+#Maximize Window
+win_max_sound:"/home/username/.desktopaudio/",50
+#Unmaximize Window
+win_unmax_sound:"/home/username/.desktopaudio/",50
+#Minimize Window
+win_min_sound:"/home/username/.desktopaudio/",50
+#Unminimize Winodw
+win_unmin_sound:"/home/username/.desktopaudio/",50
+#No idea what this does yet
+win_res_sound:"/home/username/.desktopaudio/",50
+#Active window sound?
+win_active_sound:"/home/username/.desktopaudio/",50
+#Workspace change sound?
+desk_change_sound:"/home/username/.desktopaudio/",50
+
+-------------------------
+
