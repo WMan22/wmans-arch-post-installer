@@ -62,48 +62,49 @@ alias emulatorgames="dolphin emulatorgames"
 ##Steam Game Shortcuts
 #Counter Strike: Source
 alias CS:S="steam steam://rungameid/240/"
-alias counterstrikesource="steam steam://rungameid/240/"
+alias counterstrikesource="CS:S"
 #Death Stranding
-alias asylumforthefeeling="steam steam://rungameid/1190460/"
 alias deathstranding="steam steam://rungameid/1190460/"
+alias asylumforthefeeling="deathstranding"
 #Dicey Dungeons
-alias gimmeanother6="steam steam://rungameid/861540/"
-alias yahtzeedungeoncrawler="steam steam://rungameid/861540/"
 alias diceydungeons="steam steam://rungameid/861540/"
+alias gimmeanother6="diceydungeons"
+alias yahtzeedungeoncrawler="diceydungeons"
 #Fights in Tight Spaces
-alias thismusntregisteronanemotionallevel="steam steam://rungameid/1265820/"
 alias FITS="steam steam://rungameid/1265820/"
-alias fightsintightspaces="steam steam://rungameid/1265820/"
+alias thismusntregisteronanemotionallevel="FITS"
+alias fightsintightspaces="FITS"
 #Garry's Mod
 alias gmod="steam steam://rungameid/4000/"
-alias garrysmod="steam steam://rungameid/4000/"
+alias garrysmod="gmod"
 #Retroarch
 alias emulatorhub="steam steam://rungameid/1118310/"
-alias steamretroarch="steam steam://rungameid/1118310/"
+alias steamretroarch="emulatorhub"
 #Risk of Rain 2
 alias ror2="steam steam://rungameid/632360/"
-alias riskofrain2="steam steam://rungameid/632360/"
+alias riskofrain2="ror2"
 #Sonic Adventure
 alias sonica="steam steam://rungameid/71250/"
-alias sonicadventure="steam steam://rungameid/71250/"
+alias sonicadventure="sonica"
 #Sonic Adventure 2
 alias sonica2="steam steam://rungameid/213610/"
-alias sonicadventure2="steam steam://rungameid/213610/"
+alias sonicadventure2="sonica2"
 #Team Fortress 2
-alias hatgame="steam steam://rungameid/440/"
 alias TF2="steam steam://rungameid/440/"
-alias teamfortress2="steam steam://rungameid/440/"
+alias hatgame="TF2"
+alias teamfortress2="TF2"
 #VRChat
-alias sightseeingapp="steam steam://rungameid/438100"
-alias weirdfurries="steam steam://rungameid/438100"
 alias vrchat="steam steam://rungameid/438100/"
+alias sightseeingapp="vrchat"
+alias weirdfurries="vrchat"
 #Warframe
-alias ninjagrind="steam steam://rungameid/230410/"
 alias warfarm="steam steam://rungameid/230410/"
-alias warframe="steam steam://rungameid/230410/"
+alias ninjagrind="warfarm"
+alias warframe="warfarm"
+alias stumbleintosleek="warfarm"
 #XCOM: Enemy Unknown
-alias ayylmao="steam steam://rungameid/200510/"
 alias xcomeu="steam steam://rungameid/200510/"
+alias ayylmao="xcomeu"
 
 ##Non-Steam game shortcuts
 #Stepmania
