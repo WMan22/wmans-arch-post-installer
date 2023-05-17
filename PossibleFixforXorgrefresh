@@ -1,0 +1,6 @@
+##Put this in .profile for your home directory
+
+export __GL_SYNC_TO_VBLANK=1
+
+##GL Sync display device is presumably the monitor you want your refresh rate to adhere to
+export __GL_SYNC_DISPLAY_DEVICE=DisplayPort-0
