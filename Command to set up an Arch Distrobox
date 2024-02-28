@@ -1,0 +1,3 @@
+## Distrobox must be installed with podman before running this command.
+
+distrobox-create --nvidia --name arch --image docker.io/library/archlinux:latest
