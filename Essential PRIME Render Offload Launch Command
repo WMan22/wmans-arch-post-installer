@@ -1,3 +1,7 @@
-##This goes in a steam game's launch options if you use prime-run on Arch or CachyOS
+##This goes in a steam game's launch options if you use nvidia-prime on Arch or CachyOS
 
 __NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia %command%
+
+##Alternatively:
+
+prime-run %command%
