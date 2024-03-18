@@ -14,12 +14,6 @@ alias myemail="thunderbird"
 #File System
 alias lsa="ls -a"
 
-#Ani-cli
-alias weeb="ani-cli"
-alias weeb720p="ani-cli -q 720"
-alias weeb480p="ani-cli -q 480"
-alias weebreader="tachidesk"
-
 #Website shortcuts
 alias forwardslashv="vivaldi-stable www.4chan.org/v/"
 alias forwardslasha="vivaldi-stable www.4chan.org/a/"
@@ -101,7 +95,6 @@ alias teamfortress2="TF2"
 #VRChat
 alias vrchat="steamrun 438100"
 alias sightseeingapp="vrchat"
-alias weirdfurries="vrchat"
 #Warframe
 alias warfarm="steamrun 230410"
 alias ninjagrind="warfarm"
