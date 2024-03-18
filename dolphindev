@@ -14,4 +14,5 @@ fi
 ##Navigate to the Directory where you put UpdateDolphinDev.sh, and run
 bash UpdateDolphinDev.sh
 
-#You now have the Dolphin Emulator dev branch, though it will usually be about one singular version behind the latest dev branch depending on the day, so keep that in mind if you're netplaying with a friend.
+#You now have the Dolphin Emulator dev branch, though it will usually be about one singular version behind the latest dev branch depending on the day, 
+#So keep that in mind if you're netplaying with a friend.
