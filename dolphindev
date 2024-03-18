@@ -10,3 +10,8 @@ if ping -c1 api.github.com; then
 else
 	~/Games/DolphinDev.AppImage &
 fi
+
+##Navigate to the Directory where you put UpdateDolphinDev.sh, and run
+bash UpdateDolphinDev.sh
+
+#You now have the Dolphin Emulator dev branch, though it will usually be about one singular version behind the master branch, so keep that in mind if you're netplaying with a friend.
