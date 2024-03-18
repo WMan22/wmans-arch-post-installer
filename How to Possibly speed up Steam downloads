@@ -1,25 +1,21 @@
-HOW TO:
-
-Disclaimer: if you're already getting good speeds, this probably isn't worth doing. If you're seeing speeds capped significantly below what you should be achieving based on speed-testing, this could work for you.
-
-Open steam console in desktop mode (openable with steam://open/console in web browser, or with the command steam steam://open/console in Konsole) and enter in these two commands individually:
+##HOW TO:
+##Disclaimer: if you're already getting good speeds, this probably isn't worth doing. If you're seeing speeds capped significantly below what you should be achieving based on speed-testing, this could work for you.
+##Open steam console in desktop mode (openable with steam://open/console in web browser, or with the command steam steam://open/console in Konsole) and enter in these two commands individually:
 
 @nClientDownloadEnableHTTP2PlatformLinux 0
-
 @fDownloadRateImprovementToAddAnotherConnection 1.0
 
-According to u/Rosentti, the first command disables HTTP 2 which may be the cause of download slowdowns. The other one makes Steam connect to lots more servers (up to 10) which can improve download speeds.
+##According to u/Rosentti, the first command disables HTTP 2 which may be the cause of download slowdowns. The other one makes Steam connect to lots more servers (up to 10) which can improve download speeds.
 
 ___
 
-If this works for you, you can automate it (including in Gaming mode) by creating a cfg file in the Steam install directory. On the deck this is in the /home/deck/.steam/steam/ directory. You will need to need to Show Hidden Files in Dolphin to see the .steam directory.
-
-To create the cfg file, open Kate (text editor) and simply copy these lines of code into lines 1 and 2
+##If this works for you, you can automate it (including in Gaming mode) by creating a cfg file in the Steam install directory. 
+##On the deck this is in the /home/deck/.steam/steam/ directory. You will need to need to Show Hidden Files in Dolphin to see the .steam directory.
+##To create the cfg file, open Kate or nano (text editor) and simply copy these lines of code into lines 1 and 2
 
 @nClientDownloadEnableHTTP2PlatformLinux 0
-
 @fDownloadRateImprovementToAddAnotherConnection 1.0
 
-and save as steam_dev.cfg in the /home/deck/.steam/steam/ directory.
+##and save as steam_dev.cfg in the /home/deck/.steam/steam/ directory.
 
 Based on a post in: https://www.reddit.com/r/SteamDeck/comments/16lnsg6/psa_solution_to_slow_steam_downloads_on_deck/?share_id=1iO4U8BRNzAyIRKOdjCrK
