@@ -1,6 +1,12 @@
-Regular version of steam using XCOM: Enemy Unknown as an example
+Regular version of steam using Warframe as an example
 Arch Package Version of steam:
 steam steam://rungameid/230410
 
 Flatpak Version of Steam:
 flatpak run com.valvesoftware.Steam -applaunch 230410
+
+
+Warframe has the appID of 230410, which you can find in the URL of a game's store page.
+https://store.steampowered.com/app/230410/Warframe/
+                                   ^^^^^^
+                                   ||||||
