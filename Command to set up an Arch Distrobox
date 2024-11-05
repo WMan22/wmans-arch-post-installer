@@ -2,6 +2,9 @@
 
 distrobox-create --nvidia --name arch --image quay.io/archlinux/archlinux:latest
 
+## Yay install:
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
+
 ## How to create a distrobox desktop environment
 https://github.com/89luca89/distrobox/blob/main/docs/posts/run_latest_gnome_kde_on_distrobox.md
 https://cloudyday.tech.blog/2022/05/14/distrobox-is-awesome/
