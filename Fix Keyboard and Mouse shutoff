@@ -1,0 +1,5 @@
+###Modify the file with sudo nano /etc/default/grub
+###Append quiet usbcore.autosuspend=-1 to GRUB_CMDLINE_LINUX_DEFAULT=""
+###Remember to run update-grub
+
+GRUB_CMDLINE_LINUX_DEFAULT="quiet usbcore.autosuspend=-1"
