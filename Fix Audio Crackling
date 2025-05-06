@@ -1,0 +1,35 @@
+https://forum.manjaro.org/t/howto-troubleshoot-crackling-in-pipewire/82442
+
+ ###### If you use Pipewire and notice some crackling or distortion issues, perhaps give this a try:
+
+############# 1: Create a new folder for the Pipewire config settings, move the config settings there, and set permissions
+
+mkdir ~/.config/pipewire
+
+cp /usr/share/pipewire/*.conf ~/.config/pipewire
+
+chown $USER ~/.config/pipewire/pipewire-pulse.conf
+
+############# 2: Edit the pulse-properties.conf file
+
+nano ~/.config/pipewire/pipewire-pulse.conf
+
+############# 3: Find the pulse properties section, uncomment the following keys, and set their values to either 512 or 1024
+
+pulse.min.req = 1024/48000
+
+pulse.min.frag = 1024/48000
+
+pulse.min.quantum = 1024/48000
+
+############# 4: Reboot
+
+######## Hope this helps someone down the road! 
+
+
+
+
+
+##possible command-line fix
+
+pw-metadata -n settings 0 clock.force-rate 48000 && pw-metadata -n settings 0 clock.force-quantum 500
